@@ -1,6 +1,6 @@
 module Berkshelf
   module Vagrant
-    class UI << ::Vagrant::UI::Colored
+    class UI < ::Vagrant::UI::Colored
       include Berkshelf::UI
     end
   end
