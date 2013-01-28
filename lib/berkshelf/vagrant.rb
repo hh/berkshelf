@@ -15,6 +15,7 @@ module Berkshelf
 
     autoload :Config, 'berkshelf/vagrant/config'
     autoload :Middleware, 'berkshelf/vagrant/middleware'
+    autoload :UI, 'berkshelf/vagrant/ui'
 
     class << self
       # @param [Vagrant::Action::Environment] env
