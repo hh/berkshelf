@@ -1,3 +1,5 @@
+
+
 module Berkshelf
   module Vagrant
     module Action
@@ -8,7 +10,7 @@ module Berkshelf
         end
 
         def call(env)
-          Berkshelf.ui = ::Berkshelf::Vagrant::UI.new("Berkshelf")
+          Berkshelf.ui = ::Vagrant::UI.new("Berkshelf")
           @app.call(env)
         end
       end
