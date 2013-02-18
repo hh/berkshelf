@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'yajl-ruby'
   s.add_dependency 'activesupport'
   # Must lock 10.16 because of Vagrant 1-0-stable JSON requirement
-  s.add_dependency 'chef', '= 11.2.0'
+  s.add_dependency 'chef', '= 11.4.0'
   s.add_dependency 'ridley', '>= 0.7.0.rc1'
   s.add_dependency 'chozo', '>= 0.4.2'
   s.add_dependency 'hashie'
